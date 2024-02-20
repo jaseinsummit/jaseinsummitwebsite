@@ -145,3 +145,22 @@ img.reportimages{max-width: 75%; max-height: 75%;}
     table.footer{font-size:0.33em;}
 }
 
+/* Set up the grid - test for alumni page*/
+.rowalumni {
+    display: flex;
+    justify-content: space-between; /* Distribute columns evenly */
+    align-items: center; /* Vertically center content */
+    margin-bottom: 20px; /* Add spacing between rows */
+}
+
+.columnalumni {
+    flex: 1; /* Equal width for all columns */
+    width: 200px; /* Fixed width for each cell */
+    height: 100px; /* Fixed height for each cell */
+    padding: 10px;
+    text-align: center; /* Center content horizontally */
+    /* border: 1px solid #999; /* Add a border for visual separation */
+    margin: 5px; /* Add spacing between columns */
+    background-color: rgba(114, 166, 245, 0.05); /* Light Blue */
+}
+
